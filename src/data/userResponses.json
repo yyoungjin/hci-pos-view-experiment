@@ -1,0 +1,708 @@
+[
+  {
+    "participantId": "P-20260607091319",
+    "startedAt": "2026-06-07T09:13:19.151Z",
+    "completedAt": "2026-06-07T09:14:56.703Z",
+    "roundCount": 8,
+    "rounds": [
+      {
+        "round": 1,
+        "missionId": "M02",
+        "missionIndex": 1,
+        "view": "table",
+        "viewLabel": "표 뷰",
+        "instructionStartedAt": "2026-06-07T09:13:19.168Z",
+        "playStartedAt": "2026-06-07T09:13:27.169Z",
+        "completedAt": "2026-06-07T09:13:30.699Z",
+        "instructionDurationMs": 8001,
+        "responseTimeMs": 3530,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "211-메인-0",
+          "212-음료-0",
+          "213-메인-0"
+        ],
+        "viewResults": {
+          "table": {
+            "responseTimeMs": 3530,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 211,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 212,
+            "category": "음료"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 213,
+            "category": "메인"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "211-메인-0",
+            "clickedOrderId": 211,
+            "clickedCategory": "메인",
+            "expectedOrderId": 211,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 855,
+            "clickedAt": "2026-06-07T09:13:28.024Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "212-음료-0",
+            "clickedOrderId": 212,
+            "clickedCategory": "음료",
+            "expectedOrderId": 212,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 2667,
+            "clickedAt": "2026-06-07T09:13:29.836Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "213-메인-0",
+            "clickedOrderId": 213,
+            "clickedCategory": "메인",
+            "expectedOrderId": 213,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 3530,
+            "clickedAt": "2026-06-07T09:13:30.699Z"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "missionId": "M04",
+        "missionIndex": 3,
+        "view": "slip",
+        "viewLabel": "주문서 뷰",
+        "instructionStartedAt": "2026-06-07T09:13:31.790Z",
+        "playStartedAt": "2026-06-07T09:13:39.797Z",
+        "completedAt": "2026-06-07T09:13:44.495Z",
+        "instructionDurationMs": 8007,
+        "responseTimeMs": 4698,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "231-사이드-0",
+          "231-메인-0",
+          "232-음료-0"
+        ],
+        "viewResults": {
+          "slip": {
+            "responseTimeMs": 4698,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 231,
+            "category": "사이드"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 231,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 232,
+            "category": "음료"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "231-사이드-0",
+            "clickedOrderId": 231,
+            "clickedCategory": "사이드",
+            "expectedOrderId": 231,
+            "expectedCategory": "사이드",
+            "correct": true,
+            "elapsedMs": 2567,
+            "clickedAt": "2026-06-07T09:13:42.364Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "231-메인-0",
+            "clickedOrderId": 231,
+            "clickedCategory": "메인",
+            "expectedOrderId": 231,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 3373,
+            "clickedAt": "2026-06-07T09:13:43.170Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "232-음료-0",
+            "clickedOrderId": 232,
+            "clickedCategory": "음료",
+            "expectedOrderId": 232,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 4698,
+            "clickedAt": "2026-06-07T09:13:44.495Z"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "missionId": "M02",
+        "missionIndex": 1,
+        "view": "slip",
+        "viewLabel": "주문서 뷰",
+        "instructionStartedAt": "2026-06-07T09:13:45.516Z",
+        "playStartedAt": "2026-06-07T09:13:53.522Z",
+        "completedAt": "2026-06-07T09:13:56.220Z",
+        "instructionDurationMs": 8006,
+        "responseTimeMs": 2698,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "211-메인-0",
+          "212-음료-0",
+          "213-메인-0"
+        ],
+        "viewResults": {
+          "slip": {
+            "responseTimeMs": 2698,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 211,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 212,
+            "category": "음료"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 213,
+            "category": "메인"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "211-메인-0",
+            "clickedOrderId": 211,
+            "clickedCategory": "메인",
+            "expectedOrderId": 211,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 1123,
+            "clickedAt": "2026-06-07T09:13:54.645Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "212-음료-0",
+            "clickedOrderId": 212,
+            "clickedCategory": "음료",
+            "expectedOrderId": 212,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 1923,
+            "clickedAt": "2026-06-07T09:13:55.445Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "213-메인-0",
+            "clickedOrderId": 213,
+            "clickedCategory": "메인",
+            "expectedOrderId": 213,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 2698,
+            "clickedAt": "2026-06-07T09:13:56.220Z"
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "missionId": "M01",
+        "missionIndex": 0,
+        "view": "slip",
+        "viewLabel": "주문서 뷰",
+        "instructionStartedAt": "2026-06-07T09:13:57.178Z",
+        "playStartedAt": "2026-06-07T09:14:05.186Z",
+        "completedAt": "2026-06-07T09:14:07.670Z",
+        "instructionDurationMs": 8008,
+        "responseTimeMs": 2484,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "201-메인-0",
+          "201-음료-0",
+          "202-메인-0"
+        ],
+        "viewResults": {
+          "slip": {
+            "responseTimeMs": 2484,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 201,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 201,
+            "category": "음료"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 202,
+            "category": "메인"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "201-메인-0",
+            "clickedOrderId": 201,
+            "clickedCategory": "메인",
+            "expectedOrderId": 201,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 909,
+            "clickedAt": "2026-06-07T09:14:06.095Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "201-음료-0",
+            "clickedOrderId": 201,
+            "clickedCategory": "음료",
+            "expectedOrderId": 201,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 1680,
+            "clickedAt": "2026-06-07T09:14:06.866Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "202-메인-0",
+            "clickedOrderId": 202,
+            "clickedCategory": "메인",
+            "expectedOrderId": 202,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 2484,
+            "clickedAt": "2026-06-07T09:14:07.670Z"
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "missionId": "M04",
+        "missionIndex": 3,
+        "view": "table",
+        "viewLabel": "표 뷰",
+        "instructionStartedAt": "2026-06-07T09:14:08.603Z",
+        "playStartedAt": "2026-06-07T09:14:16.613Z",
+        "completedAt": "2026-06-07T09:14:19.471Z",
+        "instructionDurationMs": 8010,
+        "responseTimeMs": 2858,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "231-사이드-1",
+          "231-메인-0",
+          "232-음료-0"
+        ],
+        "viewResults": {
+          "table": {
+            "responseTimeMs": 2858,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 231,
+            "category": "사이드"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 231,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 232,
+            "category": "음료"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "231-사이드-1",
+            "clickedOrderId": 231,
+            "clickedCategory": "사이드",
+            "expectedOrderId": 231,
+            "expectedCategory": "사이드",
+            "correct": true,
+            "elapsedMs": 891,
+            "clickedAt": "2026-06-07T09:14:17.504Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "231-메인-0",
+            "clickedOrderId": 231,
+            "clickedCategory": "메인",
+            "expectedOrderId": 231,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 1591,
+            "clickedAt": "2026-06-07T09:14:18.204Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "232-음료-0",
+            "clickedOrderId": 232,
+            "clickedCategory": "음료",
+            "expectedOrderId": 232,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 2858,
+            "clickedAt": "2026-06-07T09:14:19.471Z"
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "missionId": "M01",
+        "missionIndex": 0,
+        "view": "table",
+        "viewLabel": "표 뷰",
+        "instructionStartedAt": "2026-06-07T09:14:20.487Z",
+        "playStartedAt": "2026-06-07T09:14:28.498Z",
+        "completedAt": "2026-06-07T09:14:30.596Z",
+        "instructionDurationMs": 8011,
+        "responseTimeMs": 2098,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "201-메인-0",
+          "201-음료-0",
+          "202-메인-0"
+        ],
+        "viewResults": {
+          "table": {
+            "responseTimeMs": 2098,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 201,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 201,
+            "category": "음료"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 202,
+            "category": "메인"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "201-메인-0",
+            "clickedOrderId": 201,
+            "clickedCategory": "메인",
+            "expectedOrderId": 201,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 698,
+            "clickedAt": "2026-06-07T09:14:29.196Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "201-음료-0",
+            "clickedOrderId": 201,
+            "clickedCategory": "음료",
+            "expectedOrderId": 201,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 1298,
+            "clickedAt": "2026-06-07T09:14:29.796Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "202-메인-0",
+            "clickedOrderId": 202,
+            "clickedCategory": "메인",
+            "expectedOrderId": 202,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 2098,
+            "clickedAt": "2026-06-07T09:14:30.596Z"
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "missionId": "M03",
+        "missionIndex": 2,
+        "view": "table",
+        "viewLabel": "표 뷰",
+        "instructionStartedAt": "2026-06-07T09:14:31.609Z",
+        "playStartedAt": "2026-06-07T09:14:39.618Z",
+        "completedAt": "2026-06-07T09:14:45.134Z",
+        "instructionDurationMs": 8009,
+        "responseTimeMs": 5516,
+        "misclickCount": 1,
+        "correctClickCount": 3,
+        "totalClickCount": 5,
+        "clickCount": 3,
+        "clickedKeys": [
+          "221-메인-0",
+          "222-사이드-0",
+          "223-음료-0"
+        ],
+        "viewResults": {
+          "table": {
+            "responseTimeMs": 5516,
+            "misclickCount": 1,
+            "totalClickCount": 5,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 221,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 222,
+            "category": "사이드"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 223,
+            "category": "음료"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "221-메인-0",
+            "clickedOrderId": 221,
+            "clickedCategory": "메인",
+            "expectedOrderId": 221,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 599,
+            "clickedAt": "2026-06-07T09:14:40.217Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "221-사이드-0",
+            "clickedOrderId": 221,
+            "clickedCategory": "사이드",
+            "expectedOrderId": 222,
+            "expectedCategory": "사이드",
+            "correct": false,
+            "elapsedMs": 1208,
+            "clickedAt": "2026-06-07T09:14:40.826Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 0,
+            "clickedKey": "221-메인-0",
+            "clickedOrderId": 221,
+            "clickedCategory": "메인",
+            "expectedOrderId": 221,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 2082,
+            "clickedAt": "2026-06-07T09:14:41.700Z"
+          },
+          {
+            "clickIndex": 4,
+            "stepIndex": 1,
+            "clickedKey": "222-사이드-0",
+            "clickedOrderId": 222,
+            "clickedCategory": "사이드",
+            "expectedOrderId": 222,
+            "expectedCategory": "사이드",
+            "correct": true,
+            "elapsedMs": 3291,
+            "clickedAt": "2026-06-07T09:14:42.909Z"
+          },
+          {
+            "clickIndex": 5,
+            "stepIndex": 2,
+            "clickedKey": "223-음료-0",
+            "clickedOrderId": 223,
+            "clickedCategory": "음료",
+            "expectedOrderId": 223,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 5516,
+            "clickedAt": "2026-06-07T09:14:45.134Z"
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "missionId": "M03",
+        "missionIndex": 2,
+        "view": "slip",
+        "viewLabel": "주문서 뷰",
+        "instructionStartedAt": "2026-06-07T09:14:46.071Z",
+        "playStartedAt": "2026-06-07T09:14:54.079Z",
+        "completedAt": "2026-06-07T09:14:56.534Z",
+        "instructionDurationMs": 8008,
+        "responseTimeMs": 2455,
+        "misclickCount": 0,
+        "correctClickCount": 3,
+        "totalClickCount": 3,
+        "clickCount": 3,
+        "clickedKeys": [
+          "221-메인-0",
+          "222-사이드-0",
+          "223-음료-0"
+        ],
+        "viewResults": {
+          "slip": {
+            "responseTimeMs": 2455,
+            "misclickCount": 0,
+            "totalClickCount": 3,
+            "correctClickCount": 3
+          }
+        },
+        "expectedSteps": [
+          {
+            "stepIndex": 0,
+            "orderId": 221,
+            "category": "메인"
+          },
+          {
+            "stepIndex": 1,
+            "orderId": 222,
+            "category": "사이드"
+          },
+          {
+            "stepIndex": 2,
+            "orderId": 223,
+            "category": "음료"
+          }
+        ],
+        "clickLog": [
+          {
+            "clickIndex": 1,
+            "stepIndex": 0,
+            "clickedKey": "221-메인-0",
+            "clickedOrderId": 221,
+            "clickedCategory": "메인",
+            "expectedOrderId": 221,
+            "expectedCategory": "메인",
+            "correct": true,
+            "elapsedMs": 926,
+            "clickedAt": "2026-06-07T09:14:55.005Z"
+          },
+          {
+            "clickIndex": 2,
+            "stepIndex": 1,
+            "clickedKey": "222-사이드-0",
+            "clickedOrderId": 222,
+            "clickedCategory": "사이드",
+            "expectedOrderId": 222,
+            "expectedCategory": "사이드",
+            "correct": true,
+            "elapsedMs": 1676,
+            "clickedAt": "2026-06-07T09:14:55.755Z"
+          },
+          {
+            "clickIndex": 3,
+            "stepIndex": 2,
+            "clickedKey": "223-음료-0",
+            "clickedOrderId": 223,
+            "clickedCategory": "음료",
+            "expectedOrderId": 223,
+            "expectedCategory": "음료",
+            "correct": true,
+            "elapsedMs": 2455,
+            "clickedAt": "2026-06-07T09:14:56.534Z"
+          }
+        ]
+      }
+    ],
+    "id": "result-1780823696710",
+    "savedAt": "2026-06-07T09:14:56.710Z"
+  }
+]
